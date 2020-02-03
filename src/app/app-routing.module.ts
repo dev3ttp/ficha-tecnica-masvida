@@ -13,7 +13,7 @@ import { ReporteUsabilidadComponent } from './modules/reporte-usabilidad/reporte
 
 
 const routes: Routes = [
-  { path: '',                   component: HomeComponent              },
+  { path: 'home',               component: HomeComponent              },
   { path: 'requisitos',         component: RequisitosComponent        },
   { path: 'git',                component: GitComponent               },
   { path: 'iis',                component: IisComponent               },
