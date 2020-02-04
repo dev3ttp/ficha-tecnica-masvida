@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "fichaTecnica": {
+    "ficha-tecnica-masvida": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/fichaTecnica",
+            "outputPath": "dist/ficha-tecnica-masvida",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "fichaTecnica:build"
+            "browserTarget": "ficha-tecnica-masvida:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "fichaTecnica:build:production"
+              "browserTarget": "ficha-tecnica-masvida:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "fichaTecnica:build"
+            "browserTarget": "ficha-tecnica-masvida:build"
           }
         },
         "test": {
@@ -115,15 +115,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "fichaTecnica:serve"
+            "devServerTarget": "ficha-tecnica-masvida:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "fichaTecnica:serve:production"
+              "devServerTarget": "ficha-tecnica-masvida:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "fichaTecnica"
+  "defaultProject": "ficha-tecnica-masvida"
 }
