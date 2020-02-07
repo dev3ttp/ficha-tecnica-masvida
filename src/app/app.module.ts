@@ -12,7 +12,7 @@ import { ServiciosComponent } from './modules/servicios/servicios.component';
 import { QuioscoComponent } from './modules/quiosco/quiosco.component';
 import { LevantarNavegadorComponent } from './modules/levantar-navegador/levantar-navegador.component';
 import { HomeComponent } from './modules/home/home.component';
-import { PasosMasvidaComponent } from './modules/pasos-masvida/pasos-masvida.component';
+import { FuncionalidadMasvidaComponent } from './modules/funcionalidad-masvida/funcionalidad-masvida.component';
 import { ReporteUsabilidadComponent } from './modules/reporte-usabilidad/reporte-usabilidad.component';
 
 @NgModule({
@@ -27,7 +27,7 @@ import { ReporteUsabilidadComponent } from './modules/reporte-usabilidad/reporte
     QuioscoComponent,
     LevantarNavegadorComponent,
     HomeComponent,
-    PasosMasvidaComponent,
+    FuncionalidadMasvidaComponent,
     ReporteUsabilidadComponent
   ],
   imports: [

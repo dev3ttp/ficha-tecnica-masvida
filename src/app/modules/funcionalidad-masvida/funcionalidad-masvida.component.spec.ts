@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PasosMasvidaComponent } from './pasos-masvida.component';
+import { FuncionalidadMasvidaComponent } from './funcionalidad-masvida.component';
 
 describe('PasosMasvidaComponent', () => {
-  let component: PasosMasvidaComponent;
-  let fixture: ComponentFixture<PasosMasvidaComponent>;
+  let component: FuncionalidadMasvidaComponent;
+  let fixture: ComponentFixture<FuncionalidadMasvidaComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PasosMasvidaComponent ]
+      declarations: [ FuncionalidadMasvidaComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PasosMasvidaComponent);
+    fixture = TestBed.createComponent(FuncionalidadMasvidaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
